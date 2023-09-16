@@ -1,11 +1,13 @@
 "use client"
 import TimeComponent from '@/app/components/studytime/time'
 import {AmtTime} from '@/app/components/studytime/studytime'
+import App from "@/app/components/studytime/App"
 
 
 
-export default function Problems(amount: AmtTime) {
+export default function Problems({amount}: AmtTime) {
     return(
+<<<<<<< HEAD
         <div className="justify-center flex text-black text-4xl py-8">
             These are the calc 1 problems:
                 1. f(t)=(4t^2-t)(t^3-8t^2+12) 
@@ -18,8 +20,19 @@ export default function Problems(amount: AmtTime) {
 
             <Time/>
             
+=======
+        <div className=" text-black text-4xl py-8">
+            <div className="justify-center flex">
+            These are the calc 1 problems
+            </div>
+            
+            <div>
+                <TimeComponent
+            amount={amount}/>
+            </div>
+            <p><App /></p>
+>>>>>>> 8b8b004804714b1cc4dc89f3873717b1581825b8
 
         </div>
-
     )
 }
