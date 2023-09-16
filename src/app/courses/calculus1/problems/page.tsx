@@ -5,7 +5,7 @@ import App from "@/app/components/studytime/App"
 
 
 
-export default function Problems({amount}: AmtTime) {
+export default function Problems() {
     return(
         <div className="text-black py-8">
             
