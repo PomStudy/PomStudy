@@ -11,6 +11,7 @@ export default function Problems() {
             
                 <div className="justify-center flex text-6xl mb-4 font-medium">
                     Calculus 1: Derivatives
+                  <p> <App /> </p>
                 </div>
                 <div className="justify-center flex text-3xl mb-4">
                     1. f(t)=(4t^2-t)(t^3-8t^2+12) 
