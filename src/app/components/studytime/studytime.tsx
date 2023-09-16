@@ -24,7 +24,7 @@ export default function Studytime() {
                 <div className=" justify-center flex col-start-1 col-span-1 row-start-1 row-span-1">
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                         
-                            <Link href={pathname + '/problems'}> 
+                            <Link href={pathname + '/problems?time=15'}> 
                                 <div >
                                     <TimeComponent amount={15}/>
                                 </div>
