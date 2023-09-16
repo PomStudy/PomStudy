@@ -25,7 +25,7 @@ export default function Studytime() {
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                         
                             <Link href={pathname + '/problems'}> 
-                                <div onClick={() => setAmount(15)}>
+                                <div >
                                     <TimeComponent amount={15}/>
                                 </div>
                             </Link>
