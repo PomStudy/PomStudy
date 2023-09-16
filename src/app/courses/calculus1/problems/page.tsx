@@ -5,9 +5,10 @@ import App from "@/app/components/studytime/App"
 
 
 
-export default function Problems() {
+export default function Problems({amount}: AmtTime) {
     return(
         <div className="text-black py-8">
+                
             
                 <div className="justify-center flex text-6xl mb-4 font-medium">
                     Calculus 1: Derivatives
