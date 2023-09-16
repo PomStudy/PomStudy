@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import logo from './pomstudylogo.jpeg'
+import logo from './thelogo.jpeg'
 
 export default function PomStudyLogo() {
     return(
-        <Image height={100} className="rounded-full p-1" src={logo} alt="PomStudy Logo"/>
+        <Image height={120} className="rounded-full p-1" src={logo} alt="PomStudy Logo"/>
     )
 }

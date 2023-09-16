@@ -1,4 +1,4 @@
-import PomStudyLogo from './components/images/pomstudylogo'
+import PomStudyLogo from 'components/images/pomstudylogo'
 
 export default function Banner() {
     return(
