@@ -2,14 +2,14 @@
 import TimeComponent from '@/app/components/studytime/time'
 import {AmtTime} from '@/app/components/studytime/studytime'
 
-import Time from '@/app/components/studytime/studytime'
 
-export default function Problems() {
+
+export default function Problems(amount: AmtTime) {
     return(
         <div className="justify-center flex text-black text-4xl py-8">
             These are the calc 1 problems
             
-            <Time/>
+            <TimeComponent amount={15}/>
             
 
         </div>

@@ -3,7 +3,7 @@
 import {useState} from 'react'
 import Link from 'next/link'
 import {usePathname} from 'next/navigation'
-import TimeComponent from ''
+import TimeComponent from './time'
 
 
 export interface AmtTime {
