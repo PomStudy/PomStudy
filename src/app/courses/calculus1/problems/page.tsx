@@ -10,9 +10,10 @@ export default function Problems({amount}: AmtTime) {
         <div className="text-black py-8">
                 
             
-                <div className="justify-center flex text-6xl mb-4 font-medium">
-                    Calculus 1: Derivatives
-                  <p> <App /> </p>
+                <div className="text-6xl mb-4 font-medium">
+                    <div className="justify-center flex mb-6"><App /> </div>
+                    <div className="justify-center flex">Calculus 1: Derivatives</div>
+                  
                 </div>
                 <div className="justify-center flex text-3xl mb-4">
                     1. f(t)=(4t^2-t)(t^3-8t^2+12) 
