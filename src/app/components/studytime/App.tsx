@@ -3,7 +3,7 @@ import Timer from "../Timer";
 function App() {
     return (
     <div>
-        <Timer />
+        <Timer time={425} />
          </div>
     );
 }
