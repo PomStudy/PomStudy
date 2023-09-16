@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 
 import {useState} from 'react'
 import Link from 'next/link'
@@ -24,9 +24,9 @@ export default function Studytime() {
                 <div className=" justify-center flex col-start-1 col-span-1 row-start-1 row-span-1">
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                         <TimeComponent 
-                        amount={15}/>
+                        amount={15}/> 
                         <Link href={pathname + '/problems'}> 
-                                15 min
+                       15 min
                         </Link>
                             
                         
@@ -59,7 +59,7 @@ export default function Studytime() {
                         amount={120}/>
                         
                         <Link href={pathname + '/problems'}> 
-                                120Min
+                                120 min
                         </Link>
                     </p>
                 </div>
