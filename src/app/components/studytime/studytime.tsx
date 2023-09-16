@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 
 import {useState} from 'react'
 import Link from 'next/link'
@@ -23,13 +23,11 @@ export default function Studytime() {
         <div className="text-black text-7xl grid grid-cols-1 grid-rows-4 py-6 gap-9">
                 <div className=" justify-center flex col-start-1 col-span-1 row-start-1 row-span-1">
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
-                        <div onClick={() => setAmount({amount:15})}>
-                            
-                            <Link href={pathname + '/problems'}> 
-                                <TimeComponent 
-                                amount={15}/>
-                            </Link>
-                        </div>
+                        <TimeComponent 
+                        amount={15}/> 
+                        <Link href={pathname + '/problems'}> 
+                       15 min
+                        </Link>
                             
                         
                     </p>
@@ -61,7 +59,7 @@ export default function Studytime() {
                         amount={120}/>
                         
                         <Link href={pathname + '/problems'}> 
-                                120Min
+                                120 min
                         </Link>
                     </p>
                 </div>
