@@ -7,17 +7,31 @@ import App from "@/app/components/studytime/App"
 
 export default function Problems({amount}: AmtTime) {
     return(
-        <div className="justify-center flex text-black text-4xl py-8">
-            <p>These are the calc 1 problems:
-                1. f(t)=(4t^2-t)(t^3-8t^2+12) 
-                2. g(w)=(3w+w^4)/(2w^2+1)
-            
-                Solutions:
-                1. f'(t)=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)=20t^4-132t^3+24t^2+96t-12
-                2. g'(w)=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2=(4w^5+4w^3-6w^2+3)/(2w^2+1)^2
+        <div className="text-black py-8">
+            <div>
+                <div className="justify-center flex text-6xl mb-4 font-medium">
+                    Calculus 1: Derivatives
+                </div>
+                <div className="justify-center flex text-3xl mb-4">
+                    1. f(t)=(4t^2-t)(t^3-8t^2+12) 
+                </div>
 
-            </p>
-            <Time/>
+                <div className="justify-center flex text-3xl mb-4"> 
+                    2. g(w)=(3w+w^4)/(2w^2+1)
+                </div>
+
+                <div className="justify-center flex m-8 text-6xl font-medium">
+                Solutions:
+                </div>
+                <div>
+                    1. f'(t)=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)=20t^4-132t^3+24t^2+96t-12
+                </div>
+                <div>
+                    2. g'(w)=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2=(4w^5+4w^3-6w^2+3)/(2w^2+1)^2
+                </div>
+
+            </div>
+            
             
 
         </div>
