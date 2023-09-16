@@ -1,11 +1,16 @@
+"use client"
+import TimeComponent from '@/app/components/studytime/time'
+import {AmtTime} from '@/app/components/studytime/studytime'
 
-import App from "@/app/components/studytime/App"
+import Time from '@/app/components/studytime/studytime'
 
 export default function Problems() {
     return(
-        <div className="text-black text-4xl py-8">
-          <div className="justify-center flex"> These are the calc 1 problems </div>
-            <p><App /></p>
+        <div className="justify-center flex text-black text-4xl py-8">
+            These are the calc 1 problems
+            
+            <Time/>
+            
 
         </div>
 
