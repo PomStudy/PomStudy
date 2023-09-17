@@ -1,4 +1,5 @@
 
+<img width="1270" alt="logo" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/7adac0f5-143f-4251-a6e2-b1ec7babfa4e">
 
 ## PomStudy
 
