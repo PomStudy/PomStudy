@@ -35,14 +35,24 @@ export default function Problems() {
                 <div className="justify-center flex m-8 text-6xl font-medium">
                 Solutions:
                 </div>
-                <div>
+
+                <div className="text-2xl">
+                    
+                <div className="justify-center flex">
                     <p>
                         1. d=1720m
                     </p>
                 </div>
-                <div>
-                    2. d=704m
                 </div>
+                <div className="text-2xl">
+                <div className="justify-center flex">
+                <p>
+                    2. d=704m
+                    </p>
+                </div>
+                </div>
+                
+                
 
 
 
