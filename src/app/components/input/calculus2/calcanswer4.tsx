@@ -44,7 +44,7 @@ export default function CalcAnswer4() {
             <div className="justify-center flex">
                 <div className="justify-center flex border-4 border-red-500 rounded-full p-3">
                     <br />
-                    2) (4/9)ln|x-2|-(4/9)ln|x+7|+c
+                     (4/9)ln|x-2|-(4/9)ln|x+7|+c
                     <br />
                 </div>
 

@@ -42,7 +42,7 @@ export default function PhyAnswer4() {
         {attempts == 0 && 
             <div className="justify-center flex text-4xl">
                 <div className="border-4 border-red-500 rounded-full p-3 justify-center">
-                b) 3000eV
+                 3000eV
                 </div>
             
             </div>

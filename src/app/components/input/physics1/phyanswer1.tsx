@@ -41,7 +41,7 @@ export default function PhyAnswer1() {
         {attempts == 0 && 
             <div className="justify-center flex text-4xl">
                 <div className="border-4 border-red-500 rounded-full p-3 justify-center">
-                    1. d=1720m
+                     d=1720m
                 </div>
             
             </div>

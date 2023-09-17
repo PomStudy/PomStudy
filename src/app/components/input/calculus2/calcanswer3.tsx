@@ -6,6 +6,7 @@ import {useState} from 'react';
 
 export default function CalcAnswer3() {
     const [attempts, setAttempts] = useState<number>(3);
+    const [isAnswerCorrect, setIsAnswerCorrect] = useState<boolean>(false);
 
     function handleClick() {
         {if (attempts > 0) {
@@ -45,7 +46,7 @@ export default function CalcAnswer3() {
             <div className="justify-center flex">
                 <div className="justify-center flex border-4 border-red-500 rounded-full p-3">
                     <br />
-                        1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
+                         (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     <br />
                 </div>
 
