@@ -3,8 +3,7 @@ import TimeComponent from '@/app/components/studytime/time'
 import {AmtTime} from '@/app/components/studytime/studytime'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
-import React from 'react';
-import './Fraction.css'; // Import CSS for styling
+
 
 
 
@@ -32,7 +31,7 @@ export default function Problems({amount}: AmtTime) {
                 </div>
                 <div>
                     <p>
-                        1. df/dt =(8t-1)(t&#179;-8t &#178; +12)+(4t&#178;-t)(3t&#178;-16t)=20t&#8308;-132t&#179;+24t&#178;+96t-12
+                        1. df/dt =(8t-1)(t&#179;-8t&#178;+12)+(4t&#178;-t)(3t&#178;-16t)=20t&#8308;-132t&#179;+24t&#178;+96t-12
                     </p>
                 </div>
                 <div>
