@@ -20,7 +20,7 @@ export default function Problems() {
                 
             
                 <div className="text-6xl mb-4 font-medium">
-                    <div className="justify-center flex mb-6"><App /> </div>
+                    <div className="justify-center flex mb-6"><App time={Number(time)}/> </div>
                     <div className="justify-center flex">Physics II</div>
                   
                 </div>
