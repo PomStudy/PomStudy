@@ -8,8 +8,14 @@ export default function Problems() {
     const  time  = router.get('time') ?? "1";;
     return(
         <div className="justify-center flex text-black text-4xl py-8">
+            
+
+            <div className="text-black py-8">
+
+
             <div className="text-6xl mb-4 font-medium">
                     <div className="justify-center flex mb-6"><App time={Number(time)}/> </div>
+
                     <div className="justify-center flex">Calculus 2: Integrals</div>
               
             </div>
@@ -24,7 +30,7 @@ export default function Problems() {
                     2) (32/65)e&#178;<sup>z</sup>cos(z/4)+(4/65)e&#178;<sup>z</sup>sin(z/4)+c
             </div>
 
-            
+            </div>
         </div>
     )
 }
