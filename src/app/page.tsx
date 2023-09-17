@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <div className="justify-center flex py-9">
           <button>
             
-              <a href="/api/auth/login">Login</a>
+              <a href="/api/auth/login"> Login </a>
             
 
           </button>

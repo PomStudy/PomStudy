@@ -16,8 +16,10 @@ export default function CalcAnswer3() {
         }}}
 
         function increment() {
-            setAttempts(attempts + 1);
-        }
+            if (attempts<3){
+                setAttempts(attempts + 1);
+                }
+            }
     
     return(
     <div className="w-full max-w-x py-4" >
