@@ -11,11 +11,13 @@ export default function Problems() {
             <div className="text-6xl mb-4 font-medium">
                     <div className="justify-center flex mb-6"><App time={Number(time)}/> </div>
                     <div className="justify-center flex">Calculus 2: Integrals</div>
-                        Evaluate:
-                        &#8747;(3t+t&#178;)sin(2t)dt
+                       
 
             </div>
-            
+            <div className="justify-center flex text-3xl mb-4">
+                Evaluate:
+                    &#8747;(3t+t&#178;)sin(2t)dt 
+            </div>
             
 
             
