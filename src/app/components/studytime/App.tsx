@@ -6,7 +6,7 @@ interface time{
 }
 function App({time}:time) {
     return (
-    <div>
+    <div className="border-4 rounded-full p-2">
         
         <Timer time={time * 60} />
          </div>
