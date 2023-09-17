@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Container } from 'postcss'
+import { Container } from 'postcss' 
 
 export default function CourseSelect() {
     return(
