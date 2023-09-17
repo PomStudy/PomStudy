@@ -9,7 +9,9 @@ Sprint Plan in place using GitHub project management flow.
 - [X] Timing page created
 - [X] Clock created
 - [X] Problems created
-- [X] Solutions created 
+- [X] Solutions created
+
+Time spent: **1** day spent in total
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
