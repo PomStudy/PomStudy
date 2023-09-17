@@ -35,6 +35,10 @@ export default function Problems() {
                     <div class="top">2</div><div class="bottom">6</div>
                     <sup>6</sup>/<sub>7</sub>
                     <div class="fraction">1/2</div>
+                    <span class="fraction">
+  <span class="numerator">3</span>
+  <span class="denominator">4</span>
+</span>
             </div>
 
             </div>
