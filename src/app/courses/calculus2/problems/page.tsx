@@ -31,7 +31,7 @@ export default function Problems() {
                     <br />
                     1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     <br />
-                    2) (32/65)e&#178;<sup>z</sup>cos(z/4)+(4/65)e&#178;<sup>z</sup>sin(z/4)+c
+                    2) (32/65)e<sup>2z</sup>cos(z/4)+(4/65)e<sup>2z</sup>sin(z/4)+c
                     <br />
             </div>
 
