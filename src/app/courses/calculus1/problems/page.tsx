@@ -22,7 +22,7 @@ export default function Problems({amount}: AmtTime) {
                 </div>
 
                 <div className="justify-center flex text-3xl mb-4"> 
-                    2. g(w)=(3w+w&#8308;)/(2w&#178;+1)
+                    2. g(w)=<sup>(3w+w&#8308;)</sup>&frasl;<sub>(2w&#178;+1)</sub>
                 </div>
 
                 <div className="justify-center flex m-8 text-6xl font-medium">
@@ -30,11 +30,11 @@ export default function Problems({amount}: AmtTime) {
                 </div>
                 <div>
                     <p>
-                        1. df/dt=(8t-1)(t&#179;-8t &#178; +12)+(4t&#178;-t)(3t&#178;-16t)=20t^4-132t&#179;+24t&#178;+96t-12
+                        1. df/dt=(8t-1)(t&#179;-8t &#178; +12)+(4t&#178;-t)(3t&#178;-16t)=20t&#8308;-132t&#179;+24t&#178;+96t-12
                     </p>
                 </div>
                 <div>
-                    2. dg/dt=((3+4w&#179;)(2w&#178;+1)-(3w+w^4)(4w))/(2w&#178;+1)^2=(4w^5+4w&#179;-6w&#178;+3)/(2w&#178;+1)&#178;
+                    2. dg/dt=((3+4w&#179;)(2w&#178;+1)-(3w+w&#8308;)(4w))/(2w&#178;+1)&#178;=(4w&#8309;+4w&#179;-6w&#178;+3)/(2w&#178;+1)&#178;
                 </div>
         </div>
     
