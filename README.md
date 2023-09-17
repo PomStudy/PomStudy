@@ -11,12 +11,12 @@ Our mission is to empower students to improve their study habits, boost concentr
 
 Sprint Plan in place using GitHub project management flow.
 
-- [X] Main Page created
-- [X] Course Page created
-- [X] Timing page created
-- [X] Clock created
-- [X] Problems created
-- [X] Solutions created
+- [X] Main Page has been successfully created
+- [X] Course Page has been successfully created
+- [X] Timing page has been successfully created
+- [X] Clock has been successfully established.
+- [X] Problems have been successfully created
+- [X] Solutions have been successfully created
 
 Time spent: **1** day spent in total
  
