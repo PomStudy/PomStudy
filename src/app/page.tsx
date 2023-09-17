@@ -9,6 +9,7 @@ export default function Home() {
       </div>
 
 
+
         <div className="justify-center flex py-9">
           <button>
             <Link href="/courses">
