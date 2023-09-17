@@ -5,7 +5,7 @@ import { Container } from 'postcss'
 export default function CourseSelect() {
     return(
 
-        <div className="text-black grid grid-cols-2 grid-rows-2 text-8xl gap-9">
+        <div className="text-black grid grid-cols-2 grid-rows-2 text-8xl gap-10">
 
 
             <div className=" justify-center flex px-2 border-4 rounded-xl border-zinc-950 hover:bg-red-300">
