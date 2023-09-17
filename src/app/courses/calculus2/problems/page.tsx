@@ -34,7 +34,7 @@ export default function Problems() {
 
                     </div>
 
-                    <div className="justify-center flex">
+                    <div className="justify-center flex"> 
                     Evaluate:
                         <br/>
                         2) &#8747;4/(x&#178;+5x-114)dx
@@ -45,7 +45,6 @@ export default function Problems() {
                         <CalcAnswer4/>
                     
                     </div>
-                            
                             
 
                     
