@@ -36,7 +36,7 @@ export default function CalcAnswer2() {
         {attempts > 2 && 
             <div className="justify-center flex">
                 <div className="justify-center flex">
-                2. dg/dt=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
+                2. dg/dw=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
                 </div>
 
                 <div className="justify-center flex">
