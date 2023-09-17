@@ -1,9 +1,14 @@
 import React from "react"; 
 import Timer from "../Timer";
-function App() {
+
+interface time{
+    time: number
+}
+function App({time}:time) {
     return (
     <div>
-        <Timer time={425} />
+        
+        <Timer time={time * 60} />
          </div>
     );
 }

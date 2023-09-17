@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 
-
 interface State {
     time: number;
     seconds: number;
@@ -13,27 +12,27 @@ interface Props{
 
 const Timer: React.FC<Props> = ({ time }) =>{
     debugger;
-    const [state, setState] = React.useState<State>({
+    const [timer, setTimer] = React.useState<State>({
         time,
         seconds: time - Math.floor((time - 1) / 60) * 60 -1,
         minuts: Math.floor((time - 1)/ 60),
     });
     React.useEffect(() => {
         setTimeout(() => {
-            if (state.time === 0){
+            if (timer.time === 0){
                return; 
             }
 
-            setState({
-                time: state.time -1,
-                minuts: Math.floor((state.time - 1)/60),
-                seconds: state.time - Math.floor((state.time - 1)/60) * 60 - 1,
+            setTimer({
+                time: timer.time -1,
+                minuts: Math.floor((timer.time - 1)/60),
+                seconds: timer.time - Math.floor((timer.time - 1)/60) * 60 - 1,
             });
         }, 1000);
-    },[state.time]);
+    },[timer.time]);
         return(
-            <h2>{`${state.minuts}: ${
-                state.seconds <= 10 ? `0${state.seconds}` : state.seconds
+            <h2>{`${timer.minuts}: ${
+                timer.seconds <= 10 ? `0${timer.seconds}` : timer.seconds
             }`}</h2>
         );
     };
