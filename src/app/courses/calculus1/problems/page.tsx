@@ -3,9 +3,8 @@ import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
 import {useState} from 'react'
-import CalcAnswer1 from '@/app/components/input/calcanswer1'
-import CalcAnswer2 from '@/app/components/input/calcanswer2'
-import Solution1calc1 from '@/app/components/solutions/solution1calc1'
+import CalcAnswer1 from '@/app/components/input/calculus1/calcanswer1'
+import CalcAnswer2 from '@/app/components/input/calculus1/calcanswer2'
 
 
 

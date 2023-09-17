@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 
 
-export default function CalcAnswer2() {
+export default function PhyAnswer2() {
     const [attempts, setAttempts] = useState<number>(0);
 
     function handleClick() {
@@ -16,7 +16,7 @@ export default function CalcAnswer2() {
     return(
     <div className="w-full max-w-x py-4" >
         <div className="justify-center flex">
-            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment}>
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment} autoComplete="off">
                 <div className=" mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" >
                         You have {3 - attempts} attempts left
@@ -34,13 +34,9 @@ export default function CalcAnswer2() {
         </div>
 
         {attempts > 2 && 
-            <div className="justify-center flex">
-                <div className="justify-center flex">
-                2. dg/dt=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
-                </div>
-
-                <div className="justify-center flex">
-                =(4w^5+4w^3-6w^2+3)/(2w^2+1)^2
+            <div className="justify-center flex text-4xl">
+                <div className="border-4 border-red-500 rounded-full p-3">
+                2. d=704m
                 </div>
             
             </div>

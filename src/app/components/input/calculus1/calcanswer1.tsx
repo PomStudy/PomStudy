@@ -1,10 +1,9 @@
 
-
 import {useState} from 'react';
 
 
 
-export default function CalcAnswer3() {
+export default function CalcAnswer1() {
     const [attempts, setAttempts] = useState<number>(0);
 
     function handleClick() {
@@ -18,7 +17,7 @@ export default function CalcAnswer3() {
     return(
     <div className="w-full max-w-x py-4" >
         <div className="justify-center flex">
-            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment}>
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment} autoComplete="off">
                 <div className=" mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" >
                         You have {3 - attempts} attempts left
