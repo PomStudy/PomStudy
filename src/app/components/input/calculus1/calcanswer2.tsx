@@ -1,9 +1,8 @@
-
 import {useState} from 'react';
 
 
 
-export default function CalcAnswer1() {
+export default function CalcAnswer2() {
     const [attempts, setAttempts] = useState<number>(0);
 
     function handleClick() {
@@ -17,7 +16,7 @@ export default function CalcAnswer1() {
     return(
     <div className="w-full max-w-x py-4" >
         <div className="justify-center flex">
-            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment}>
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment} autoComplete="off">
                 <div className=" mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" >
                         You have {3 - attempts} attempts left
@@ -37,11 +36,11 @@ export default function CalcAnswer1() {
         {attempts > 2 && 
             <div className="justify-center flex">
                 <div className="justify-center flex">
-                    1. df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)
+                2. dg/dw=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
                 </div>
 
                 <div className="justify-center flex">
-                    =20t^4-132t^3+24t^2+96t-12
+                =(4w^5+4w^3-6w^2+3)/(2w^2+1)^2
                 </div>
             
             </div>
