@@ -31,7 +31,7 @@ export default function Problems() {
                      for the speed with which the electron strikes the positive plate. 
                     
                      <br />
-                     b) During this process, what is the electron’s change in kinetic energy in electron volt?
+                     b) During this process, what is the electron’s change in kinetic energy in electron volt?  
 
 
                 </div>
