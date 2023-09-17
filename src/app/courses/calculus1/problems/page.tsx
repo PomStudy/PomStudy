@@ -3,15 +3,15 @@ import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
 import {useState} from 'react'
-import Answer from '@/app/components/input/answer.tsx'
-import Solution1calc1 from '@/app/components/solutions/solution1calc1.tsx'
+import Answer from '@/app/components/input/answer'
+
 
 
 
 export default function Problems() {
     const router = useSearchParams();
     const  time  = router.get('time') ?? "1";
-    const [attempts, setAttempts] = useState(0);
+    const [attempts, setAttempts] = useState<number>(0);
 
 
     return(
@@ -29,14 +29,19 @@ export default function Problems() {
                     <Answer/>
                     
                 </div>
-                <div>
-                    <Solution1calc1 attempts={attempts}/>
+                <div className="text-2xl py-4">
+                        <div className="justify-center flex">
+                        1. df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)
+                        </div>
 
+                        <div className="justify-center flex">
+                            =20t^4-132t^3+24t^2+96t-12
+                        </div>
                 </div>
 
 
                 <div className="justify-center flex text-3xl mb-4"> 
-                    2. g(w)=<span class="frac"><sup>(3w+w&#8308;)</sup><span>/</span><sub>(2w&#178;+1)</sub></span>
+                    2. g(w)=<span className="frac"><sup>(3w+w&#8308;)</sup><span>/</span><sub>(2w&#178;+1)</sub></span>
                 </div>
                 <div>
                     <Answer/>
