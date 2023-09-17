@@ -24,7 +24,7 @@ export default function Problems() {
                 Evaluate:
                     1) &#8747;(3t+t&#178;)sin(2t)dt 
                     2) &#8747;e&#178;<sup>z</sup>cos(z/4)dz
-
+                    <br />
                 Solution:
                     1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     2) (32/65)e&#178;<sup>z</sup>cos(z/4)+(4/65)e&#178;<sup>z</sup>sin(z/4)+c
