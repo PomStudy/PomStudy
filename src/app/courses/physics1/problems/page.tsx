@@ -19,7 +19,8 @@ export default function Problems() {
                   
                 </div>
                 <div className="justify-center flex text-3xl mb-4">
-                An airplane accelerates down a runway at 3.20 m/s&#178; for 32.8 s until is 
+                <p>
+                1. An airplane accelerates down a runway at 3.20 m/s&#178; for 32.8 s until is 
                 finally lifts off the ground. Determine the distance traveled before takeoff.
                      <br />
                     
@@ -28,7 +29,7 @@ export default function Problems() {
                      the lowest acceleration rate is likely to be 3 m/s&#178;. The takeoff speed for this plane will be 65 m/s.
                       Assuming this minimum acceleration, what is the minimum allowed length for the runway?  
 
-
+                      </p>
                 </div>
 
 
