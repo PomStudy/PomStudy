@@ -1,5 +1,5 @@
 
-<img width="1324" alt="bar" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/f2748e60-4756-40a1-bced-4e1096f35f57">
+<img width="1323" alt="bar" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/373373e8-5b9a-47fb-9670-d80baa884899">
 
 
 ## 
