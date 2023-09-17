@@ -17,6 +17,7 @@ Sprint Plan in place using GitHub project management flow.
 - [X] Clock has been successfully established.
 - [X] Problems have been successfully created
 - [X] Solutions have been successfully created
+- [X] OAuth integration
 
 Time spent: **24** hours spent in total
  
