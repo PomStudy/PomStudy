@@ -13,12 +13,12 @@ Sprint Plan in place using GitHub project management flow.
 
 - [X] Main Page has been successfully created
 - [X] Course Page has been successfully created
-- [X] Timing page has been successfully created
+- [X] Timing Page has been successfully created
 - [X] Clock has been successfully established.
 - [X] Problems have been successfully created
 - [X] Solutions have been successfully created
 
-Time spent: **1** day spent in total
+Time spent: **24** hours spent in total
  
 
 
