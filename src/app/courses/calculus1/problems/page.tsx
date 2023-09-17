@@ -22,7 +22,7 @@ export default function Problems({amount}: AmtTime) {
                 </div>
 
                 <div className="justify-center flex text-3xl mb-4"> 
-                    2. g(w)=(3w+w<sup class = "exponent">4</sup>)/(2w&#178;+1)
+                    2. g(w)=(3w+w&#8308;)/(2w&#178;+1)
                 </div>
 
                 <div className="justify-center flex m-8 text-6xl font-medium">
