@@ -22,20 +22,14 @@ Sprint Plan in place using GitHub project management flow.
 Time spent: **24** hours spent in total
  
 
-
-## Screenshots
- <img width="1438" alt="courses" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/34d79152-89fe-415c-a82e-f664c2aa3de2"><br>
-
-
-
-
-
-
-### Built With
+## Built With
 * [![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 * [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
 [product-screenshot]: images/screenshot.png
+
+## Screenshots
+ <img width="1438" alt="courses" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/34d79152-89fe-415c-a82e-f664c2aa3de2"><br>
 
 
   
