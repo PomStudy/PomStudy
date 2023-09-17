@@ -21,6 +21,7 @@ export default function Problems() {
                   
                 </div>
                 <div className="justify-center flex text-3xl mb-4">
+                <p>
                     1. The potential difference between two plates of a parallel plate capacitor equals 3,000
                      V. An electron is launched from the negative plate with a speed of 1.5×107m/s.
                      <br /> a) Derive a symbolic answer in terms of system parameters and calculate a numerical value
@@ -28,21 +29,26 @@ export default function Problems() {
                     
                      <br />
                      b) During this process, what is the electron’s change in kinetic energy in electron volt?  
-
+                     </p>
 
                 </div>
 
 
                 <div className="justify-center flex m-8 text-6xl font-medium">
+                    
                 Solutions:
                 </div>
-                <div>
+                <div className="text-2xl">
+                <div className="justify-center flex">
                     <p>
                         a) 3.7 x 10&#8311; m/s 
                     </p>
                 </div>
-                <div>
+                </div>
+                <div className="text-2xl">
+                <div className="justify-center flex">
                     b) 3000eV
+                </div>
                 </div>
 
             
