@@ -36,7 +36,7 @@ export default function Studytime() {
                 <div className=" justify-center flex col-start-1 col-span-1 row-start-2 row-span-1">
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                       
-                    <Link href={pathname + '/problems'}> 
+                    <Link href={pathname + '/problems?time=30'}> 
                                 30 min
                     </Link>
                             
@@ -46,7 +46,7 @@ export default function Studytime() {
                 <div className=" justify-center flex col-start-1 col-span-1 row-start-3 row-span-1">
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                         
-                        <Link href={pathname + '/problems'}> 
+                        <Link href={pathname + '/problems?time=60'}> 
                                 60 min 
                         </Link>
                         
@@ -56,7 +56,7 @@ export default function Studytime() {
                     <p className="hover:bg-red-300 border-4 rounded-xl border-zinc-950">
                         
                         
-                        <Link href={pathname + '/problems'}> 
+                        <Link href={pathname + '/problems?time=120'}> 
                                 120 min
                         </Link>
                     </p>
