@@ -3,6 +3,9 @@ import TimeComponent from '@/app/components/studytime/time'
 import {AmtTime} from '@/app/components/studytime/studytime'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
+import {useState} from 'react'
+import Answer from '@/app/components/input/answer.tsx'
+import Solution1calc1 from '@/app/components/solutions/solution1calc1.tsx'
 
 
 
