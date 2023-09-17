@@ -31,7 +31,14 @@ Time spent: **24** hours spent in total
 
 
 
+### Built With
+* [![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+* [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
+[product-screenshot]: images/screenshot.png
+
+
+  
 
 ##
 <p align="center">
