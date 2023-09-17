@@ -36,6 +36,7 @@ export default function Problems() {
                     2) (4/9)ln|x-2|-(4/9)ln|x+7|+c
                     <div class="top">2</div><div class="bottom">6</div>
                     <sup>6</sup>/<sub>7</sub>
+                    <div class="fraction">1/2</div>
             </div>
             
 
