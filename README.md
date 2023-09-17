@@ -1,5 +1,6 @@
 
-<img width="1270" alt="logo" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/7adac0f5-143f-4251-a6e2-b1ec7babfa4e">
+<img width="1323" alt="bar" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/373373e8-5b9a-47fb-9670-d80baa884899">
+
 
 ## 
 **PomStudy** is a dedicated platform designed to enhance students' study routines by offering customized study timers and subject-specific challenges. Our selection includes courses such as Physics I & II and Calculus I & II , allowing you to tailor your study sessions to your academic needs. 
@@ -10,14 +11,14 @@ Our mission is to empower students to improve their study habits, boost concentr
 
 Sprint Plan in place using GitHub project management flow.
 
-- [X] Main Page created
-- [X] Course Page created
-- [X] Timing page created
-- [X] Clock created
-- [X] Problems created
-- [X] Solutions created
+- [X] Main Page has been successfully created
+- [X] Course Page has been successfully created
+- [X] Timing Page has been successfully created
+- [X] Clock has been successfully established.
+- [X] Problems have been successfully created
+- [X] Solutions have been successfully created
 
-Time spent: **1** day spent in total
+Time spent: **24** hours spent in total
  
 
 

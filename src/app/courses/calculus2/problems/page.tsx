@@ -1,14 +1,14 @@
 "use client"
 import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation'; 
 import CalcAnswer3 from '@/app/components/input/calculus2/calcanswer3'
 import CalcAnswer4 from '@/app/components/input/calculus2/calcanswer4'
 
 export default function Problems() {
     const router = useSearchParams();
     const  time  = router.get('time') ?? "1";;
-    return(
+    return( 
         <div className="text-black text-4xl py-8">
             <div className="text-black text-4xl">
                 <div className="text-6xl mb-4 font-medium">
@@ -52,8 +52,8 @@ export default function Problems() {
                 </div>
             </div>
             
-
-            
+            </div>
+            </div>    
         </div>
     )
 }
