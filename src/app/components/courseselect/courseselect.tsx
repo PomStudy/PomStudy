@@ -1,9 +1,12 @@
 import Link from 'next/link'
 
+import { Container } from 'postcss'
+
 export default function CourseSelect() {
     return(
 
         <div className="text-black grid grid-cols-2 grid-rows-2 text-8xl gap-9">
+
 
             <div className=" justify-center flex px-2 border-4 rounded-xl border-zinc-950 hover:bg-red-300">
                 <button className="col-start-1 col-span-1 row-start-1 row-span-1 ">
@@ -37,9 +40,13 @@ export default function CourseSelect() {
                     Calculus 2
                     </Link>
                 </button>
+                </div>
+            
+
+        <div className='text-black grid grid-cols-2 grid-rows-2 text-8xl gap-9$ {styles.className}'>
+        <button href="http://localhost:3000/"> Go back </button>
             </div>
-
-
+            
 
         </div>
     )
