@@ -16,7 +16,11 @@ export default function Problems() {
             </div>
             <div className="justify-center flex text-3xl mb-4">
                 Evaluate:
-                    &#8747;(3t+t&#178;)sin(2t)dt 
+                    1) &#8747;(3t+t&#178;)sin(2t)dt 
+
+
+                Solution:
+                1) -1/2(3t+t&#178;)cos(2t)+1/4(3+2t)sin(2t)+1/4cos(2t)+c
             </div>
             
 
