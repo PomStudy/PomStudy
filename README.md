@@ -1,16 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## PomStudy
 
-First, run the development server:
+Sprint Plan in place using GitHub project management flow.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [X] Main Page created
+- [X] Course Page created
+- [X] Timing page created
+- [X] Clock created
+- [X] Problems created
+- [X] Solutions created
+
+Time spent: **1** day spent in total
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
