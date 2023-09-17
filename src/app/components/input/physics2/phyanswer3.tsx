@@ -14,8 +14,10 @@ export default function PhyAnswer3() {
         }}}
     
         function increment() {
-            setAttempts(attempts + 1);
-        }
+            if (attempts<3){
+                setAttempts(attempts + 1);
+                }
+            }
     
     return(
     <div className="w-full max-w-x py-4" >
@@ -40,7 +42,7 @@ export default function PhyAnswer3() {
         {attempts == 0 && 
             <div className="justify-center flex text-4xl">
                 <div className="border-4 border-red-500 rounded-full p-3 justify-center">
-                a) 3.7 x 10&#8311; m/s 
+                 3.7 x 10&#8311; m/s 
                 </div>
             
             </div>

@@ -6,6 +6,7 @@ import CalcAnswer3 from '@/app/components/input/calculus2/calcanswer3'
 import CalcAnswer4 from '@/app/components/input/calculus2/calcanswer4'
 
 export default function Problems() {
+   
     const router = useSearchParams();
     const  time  = router.get('time') ?? "1";;
     return( 
@@ -49,10 +50,11 @@ export default function Problems() {
 
                     
                 </div>
+                
             </div>
-            
+      
         </div>
                
-        
+            
     )
 }

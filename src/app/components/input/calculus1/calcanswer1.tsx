@@ -15,8 +15,11 @@ export default function CalcAnswer1() {
         }}}
 
         function increment() {
+            if (attempts<3){
             setAttempts(attempts + 1);
+            }
         }
+        
     
     return(
     <div className="w-full max-w-x py-4" >
@@ -41,7 +44,7 @@ export default function CalcAnswer1() {
         {attempts == 0 && 
             <div className="justify-center flex ">
                 <div className="justify-center flex">
-                    1. df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)
+                     df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)
                 </div>
 
                 <div className="justify-center flex ">

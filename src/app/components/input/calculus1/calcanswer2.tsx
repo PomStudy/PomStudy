@@ -17,8 +17,10 @@ export default function CalcAnswer2() {
     }
 
     function increment() {
-        setAttempts(attempts + 1);
-    }
+        if (attempts<3){
+            setAttempts(attempts + 1);
+            }
+        }
     
     return(
     <div className="w-full max-w-x py-4" >
@@ -43,11 +45,11 @@ export default function CalcAnswer2() {
         {attempts == 0 && 
             <div className="justify-center flex">
                 <div className="justify-center flex">
-                2. dg/dw=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
+                 dg/dw=((3+4w^3)(2w^2+1)-(3w+w^4)(4w))/(2w^2+1)^2
                 </div>
 
                 <div className="justify-center flex">
-                =(4w^5+4w^3-6w^2+3)/(2w^2+1)^2
+                (4w^5+4w^3-6w^2+3)/(2w^2+1)^2
                 </div>
             
             </div>

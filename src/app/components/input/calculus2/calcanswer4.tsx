@@ -15,8 +15,10 @@ export default function CalcAnswer4() {
     }}}
 
     function increment() {
-        setAttempts(attempts + 1);
-    }
+        if (attempts<3){
+            setAttempts(attempts + 1);
+            }
+        }
     
     return(
     <div className="w-full max-w-x py-4" >
@@ -42,7 +44,7 @@ export default function CalcAnswer4() {
             <div className="justify-center flex">
                 <div className="justify-center flex border-4 border-red-500 rounded-full p-3">
                     <br />
-                    2) (4/9)ln|x-2|-(4/9)ln|x+7|+c
+                     (4/9)ln|x-2|-(4/9)ln|x+7|+c
                     <br />
                 </div>
 
