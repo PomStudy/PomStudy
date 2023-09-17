@@ -7,8 +7,8 @@ interface time{
 function App({time}:time) {
     return (
     <div>
-        <h1>{time}</h1>
-        <Timer time={425} />
+        
+        <Timer time={time * 60} />
          </div>
     );
 }
