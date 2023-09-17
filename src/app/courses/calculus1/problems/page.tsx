@@ -30,7 +30,7 @@ export default function Problems({amount}: AmtTime) {
                 </div>
                 <div>
                     <p>
-                        1. df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)=20t^4-132t^3+24t^2+96t-12
+                        1. df/dt=(8t-1)(t^3-8t &#178; +12)+(4t^2-t)(3t^2-16t)=20t^4-132t^3+24t^2+96t-12
                     </p>
                 </div>
                 <div>
