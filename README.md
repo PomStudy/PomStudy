@@ -33,9 +33,8 @@ Time spent: **24** hours spent in total
 
 
 ##
-
 <p align="center">
- <img width="80" alt="A Beautiful Tomato" src="https://github.com/PomStudy/PomStudy/assets/95549729/2452dc0e-d41c-4b98-bab8-415575c5fb2e">
+<img width="70" alt="A Beautiful Tomato" src="https://github.com/PomStudy/PomStudy/assets/95549729/5ac5bed7-f574-4b22-8bb3-117b443ad7b6">
 </P>
  
 
