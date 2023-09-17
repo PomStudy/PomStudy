@@ -3,6 +3,8 @@ import TimeComponent from '@/app/components/studytime/time'
 import {AmtTime} from '@/app/components/studytime/studytime'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
+import React from 'react';
+import './Fraction.css'; // Import CSS for styling
 
 
 
