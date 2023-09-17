@@ -52,7 +52,7 @@ export default function Problems() {
             </div>
             
             </div>
-            </div>    
-        </div>
+               
+        
     )
 }
