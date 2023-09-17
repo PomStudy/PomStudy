@@ -21,7 +21,7 @@ Time spent: **1** day spent in total
  
 
 
-## Course Page
+## Screenshots
  <img width="1438" alt="courses" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/34d79152-89fe-415c-a82e-f664c2aa3de2">
  
 
