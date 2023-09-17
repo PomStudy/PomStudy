@@ -25,14 +25,13 @@ export default function Problems() {
                     <br />
                     1) &#8747;(3t+t&#178;)sin(2t)dt 
                     <br />
-                    2) &#8747;e<sup>2z</sup>cos(z/4)dz
+                    2) &#8747;4/(x&#178;+5x-114)dx
                     <br />
                 Solution:
                     <br />
                     1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     <br />
-                    2) (32/65)e<sup>2z</sup>cos(z/4)+(4/65)e<sup>2z</sup>sin(z/4)+c
-                    <br />
+                    2) (4/9)ln&#8739;x-2&#8739;-(4/9)ln&#8739;x+7&#8739;+c
             </div>
 
             </div>
