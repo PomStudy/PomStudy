@@ -7,7 +7,9 @@ Sprint Plan in place using GitHub project management flow.
 - [X] Main Page created
 - [X] Course Page created
 - [X] Timing page created
-- [X] Updated status of issues in Project board 
+- [X] Clock created
+- [X] Problems created
+- [X] Solutions created 
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
