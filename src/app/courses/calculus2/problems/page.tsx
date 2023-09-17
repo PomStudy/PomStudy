@@ -2,6 +2,7 @@
 import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
+import CalcAnswer3 from '@/app/components/input/calcanswer3'
 
 export default function Problems() {
     const router = useSearchParams();
@@ -13,6 +14,7 @@ export default function Problems() {
             <div className="text-black py-8">
 
 
+        <div className="text-black text-4xl py-8">
             <div className="text-6xl mb-4 font-medium">
                     <div className="justify-center flex mb-6"><App time={Number(time)}/> </div>
 
@@ -31,10 +33,18 @@ export default function Problems() {
                     <br />
                     1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     <br />
-                    2) (4/9)ln&#8739;x-2&#8739;-(4/9)ln&#8739;x+7&#8739;+c
+                    2) (4/9)ln|x-2|-(4/9)ln|x+7|+c
+                    <div class="top">2</div><div class="bottom">6</div>
+                    <sup>6</sup>/<sub>7</sub>
+                    <div class="fraction">1/2</div>
+                    <span class="fraction">
+  <span class="numerator">3</span>
+  <span class="denominator">4</span>
+</span>
             </div>
+            
 
-            </div>
+            
         </div>
     )
 }
