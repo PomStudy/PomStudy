@@ -44,7 +44,7 @@ export default function CourseSelect() {
             
 
         <div className='text-black grid grid-cols-2 grid-rows-2 text-8xl gap-9$ {styles.className}'>
-        <button href="http://localhost:3000/"> Go back </button>
+        <button > <Link href="/"> Go back </Link></button>
             </div>
             
 

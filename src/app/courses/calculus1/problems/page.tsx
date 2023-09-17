@@ -1,6 +1,5 @@
 "use client"
 import TimeComponent from '@/app/components/studytime/time'
-import {AmtTime} from '@/app/components/studytime/studytime'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
 import {useState} from 'react'
@@ -9,7 +8,7 @@ import Solution1calc1 from '@/app/components/solutions/solution1calc1.tsx'
 
 
 
-export default function Problems({amount}: AmtTime) {
+export default function Problems() {
     const router = useSearchParams();
     const  time  = router.get('time') ?? "1";
     const [attempts, setAttempts] = useState(0);
