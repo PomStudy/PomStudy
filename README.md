@@ -1,5 +1,6 @@
 
-<img width="1270" alt="logo" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/7adac0f5-143f-4251-a6e2-b1ec7babfa4e">
+<img width="1324" alt="bar" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/f2748e60-4756-40a1-bced-4e1096f35f57">
+
 
 ## 
 **PomStudy** is a dedicated platform designed to enhance students' study routines by offering customized study timers and subject-specific challenges. Our selection includes courses such as Physics I & II and Calculus I & II , allowing you to tailor your study sessions to your academic needs. 
