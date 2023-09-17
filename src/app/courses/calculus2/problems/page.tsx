@@ -25,7 +25,7 @@ export default function Problems() {
                     <br />
                     1) &#8747;(3t+t&#178;)sin(2t)dt 
                     <br />
-                    2) &#8747;e&#178; <sup>z</sup> cos(z/4)dz
+                    2) &#8747;e<sup>2z</sup>cos(z/4)dz
                     <br />
                 Solution:
                     <br />
