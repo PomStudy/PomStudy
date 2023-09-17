@@ -23,10 +23,12 @@ Time spent: **24** hours spent in total
  
 
 ## Built With
-* [![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-* [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-
-[product-screenshot]: images/screenshot.png
+<p align="left">
+ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+  <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+   <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+   <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+</p>
 
 ## Screenshots
 
@@ -44,7 +46,7 @@ Time spent: **24** hours spent in total
 ##
 <p align="center">
 <img width="70" alt="A Beautiful Tomato" src="https://github.com/PomStudy/PomStudy/assets/95549729/5ac5bed7-f574-4b22-8bb3-117b443ad7b6">
-</P>
+</p>
  
 
 
