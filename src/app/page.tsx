@@ -10,7 +10,7 @@ export default function Home() {
         <div className="justify-center flex py-9">
           <button>
             <Link href="/courses">
-                <p className="p-5 border-4 rounded-xl border-zinc-950 hover:bg-red-300 rounded-full">Begin your study journey here</p>
+            <a href="/api/auth/login">Login</a>
             </Link>
 
           </button>
