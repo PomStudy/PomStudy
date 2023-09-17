@@ -2,6 +2,7 @@
 import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
+import CalcAnswer3 from '@/app/components/input/calcanswer3'
 
 export default function Problems() {
     const router = useSearchParams();
@@ -13,6 +14,7 @@ export default function Problems() {
             <div className="text-black py-8">
 
 
+        <div className="text-black text-4xl py-8">
             <div className="text-6xl mb-4 font-medium">
                     <div className="justify-center flex mb-6"><App time={Number(time)}/> </div>
 
@@ -40,8 +42,9 @@ export default function Problems() {
   <span class="denominator">4</span>
 </span>
             </div>
+            
 
-            </div>
+            
         </div>
     )
 }
