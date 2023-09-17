@@ -23,7 +23,20 @@ Time spent: **24** hours spent in total
 
 
 ## Screenshots
- <img width="1438" alt="courses" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/34d79152-89fe-415c-a82e-f664c2aa3de2">
+ <img width="1438" alt="courses" src="https://github.com/LeonardoLujan/PomStudy/assets/95549729/34d79152-89fe-415c-a82e-f664c2aa3de2"><br>
+
+
+
+
+
+
+
+
+###
+
+<div style="text-align: center;">
+ <img width="100" alt="A Beautiful Tomato" src="https://github.com/PomStudy/PomStudy/assets/95549729/2452dc0e-d41c-4b98-bab8-415575c5fb2e"><br>
+</div>
  
 
 
