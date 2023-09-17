@@ -12,7 +12,7 @@ Sprint Plan in place using GitHub project management flow.
 - [X] Solutions created
 
 Time spent: **1** day spent in total
-
+ 
 
 
 ## Course Page
