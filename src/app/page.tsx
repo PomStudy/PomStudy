@@ -7,15 +7,12 @@ export default function Home() {
       <div className="justify-center flex p-14">
         Welcome to PomStudy!
       </div>
-        <div className="justify-center flex py-9">
-          <button>
+        
             
-              <a href="/api/auth/login">Login</a>
+        <a href="/api/auth/login">Login</a>
             
 
-          </button>
-
-        </div>
+          
       </div>
   )
 }
