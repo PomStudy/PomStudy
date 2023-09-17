@@ -32,8 +32,7 @@ export default function Problems({amount}: AmtTime) {
                 </div>
                 <div>
                     <p>
-                        1. <span class="fraction"><span class="numerator">df</span><span class="separator">/</span><span class="denominator">dt</span> </span>
-=(8t-1)(t&#179;-8t &#178; +12)+(4t&#178;-t)(3t&#178;-16t)=20t&#8308;-132t&#179;+24t&#178;+96t-12
+                        1. df/dt =(8t-1)(t&#179;-8t &#178; +12)+(4t&#178;-t)(3t&#178;-16t)=20t&#8308;-132t&#179;+24t&#178;+96t-12
                     </p>
                 </div>
                 <div>
