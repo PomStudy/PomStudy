@@ -20,7 +20,13 @@ const Timer: React.FC<Props> = ({ time }) =>{
     React.useEffect(() => {
         setTimeout(() => {
             if (timer.time === 0){
-               return; 
+               window.alert("Break Time!!!"); 
+               return;
+
+            }
+
+            if(timer.time === 300){
+                alert("Five Minutes Left!")
             }
 
             setTimer({
