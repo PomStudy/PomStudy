@@ -18,7 +18,7 @@ export default function Problems({amount}: AmtTime) {
                   
                 </div>
                 <div className="justify-center flex text-3xl mb-4">
-                    1. f(t)=(4t^2-t)(t^3-8t^2+12) 
+                    1. 	f(t)=(4t<sup class = "exponent">2</sup>-t)(t<sup class = "exponent">3</sup>-8t<sup class = "exponent">2</sup>+12) 
                 </div>
 
                 <div className="justify-center flex text-3xl mb-4"> 
