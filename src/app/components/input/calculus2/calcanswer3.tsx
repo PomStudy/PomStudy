@@ -18,7 +18,7 @@ export default function CalcAnswer3() {
     return(
     <div className="w-full max-w-x py-4" >
         <div className="justify-center flex">
-            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment}>
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={increment} autocomplete="off">
                 <div className=" mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2" >
                         You have {3 - attempts} attempts left
@@ -38,12 +38,12 @@ export default function CalcAnswer3() {
         {attempts > 2 && 
             <div className="justify-center flex">
                 <div className="justify-center flex">
-                    1. df/dt=(8t-1)(t^3-8t^2+12)+(4t^2-t)(3t^2-16t)
+                    <br />
+                        1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
+                    <br />
                 </div>
 
-                <div className="justify-center flex">
-                    =20t^4-132t^3+24t^2+96t-12
-                </div>
+                
             
             </div>
         
