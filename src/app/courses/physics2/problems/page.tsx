@@ -2,6 +2,7 @@
 import TimeComponent from '@/app/components/studytime/time'
 import App from "@/app/components/studytime/App"
 import { useSearchParams } from 'next/navigation';
+import Answer from '@/app/components/input/answer'
 
 export default function Problems() {
     const router = useSearchParams();
