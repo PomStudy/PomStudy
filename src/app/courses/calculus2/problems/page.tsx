@@ -32,6 +32,7 @@ export default function Problems() {
                     1) (-1/2)(3t+t&#178;)cos(2t)+(1/4)(3+2t)sin(2t)+(1/4)cos(2t)+c
                     <br />
                     2) (4/9)ln|x-2|-(4/9)ln|x+7|+c
+                    <div class="top">2</div><div class="bottom">6</div>
             </div>
 
             </div>
