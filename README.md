@@ -33,7 +33,7 @@ Time spent: **24** hours spent in total
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
-    <img width="500" alt="main" src="https://github.com/PomStudy/PomStudy/assets/95549729/2cbd8912-32ab-4a82-9bcf-2bd406a6a37f">
+  <img width="500" alt="main" src="https://github.com/PomStudy/PomStudy/assets/95549729/2cbd8912-32ab-4a82-9bcf-2bd406a6a37f">
     <img width="500" alt="coursess" src="https://github.com/PomStudy/PomStudy/assets/95549729/fa5e3d13-c535-4cba-8213-671608870b86">
 </div>
 <div style="display: flex; justify-content: space-between;">
