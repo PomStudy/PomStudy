@@ -8,7 +8,7 @@ export default function Banner() {
                 <Logo/>
             </div>
             <div className="flex justify-center">
-                <p className="text-7xl py-9 px-3 body-font font-Montserrat"> PomStudy </p>
+                <p className="text-5xl py-11 px-3 body-font font-Montserrat"> PomStudy </p>
             </div>
             
         </div>

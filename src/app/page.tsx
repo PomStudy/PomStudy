@@ -3,13 +3,10 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="text-black  m-10 text-5xl">
-      <div className="justify-center flex pb-14">
+    <div className="text-black  m-10 text-6xl">
+      <div className="justify-center flex p-14">
         Welcome to PomStudy!
       </div>
-
-
-
         <div className="justify-center flex py-9">
           <button>
             <Link href="/courses">
