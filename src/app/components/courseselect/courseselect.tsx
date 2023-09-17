@@ -43,11 +43,9 @@ export default function CourseSelect() {
                 </div>
             
 
-        <div className='text-black grid grid-cols-2 grid-rows-2 text-8xl gap-9$ {styles.className}'>
-        <button > <Link href="/"> Go back </Link></button>
             </div>
             
 
-        </div>
+        
     )
 }
